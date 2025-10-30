@@ -3,6 +3,18 @@ name = "rs-docker-networks2arrow-ipc"
 version = "0.1.0"
 edition = "2024"
 
+description = "Docker networks to Arrow IPC CLI"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-docker-networks2arrow-ipc"
+homepage = "https://github.com/takanoriyanagitani/rs-docker-networks2arrow-ipc"
+documentation = "https://docs.rs/rs-docker-networks2arrow-ipc/latest"
+keywords = ["docker", "network", "arrow", "ipc", "stream"]
+categories = ["command-line-utilities"]
+
+exclude = [
+	"rs-docker-networks2arrow-ipc",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
